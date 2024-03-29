@@ -26,6 +26,8 @@ class MyApp extends StatelessWidget {
           ),
         ),
         body: const Center(
+
+
           child: Text.rich(
               TextSpan(
                   children: [
