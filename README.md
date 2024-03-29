@@ -10,3 +10,8 @@
 <a href="https://github.com/mrsajidshaikh/first_apk/blob/master/lib/Red%20%26%20White%20.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
 
+<div align="center">
+<img src = "https://github.com/mrsajidshaikh/first_apk/assets/149478269/c8130692-ce08-4057-8bb0-009e366eb3c3" width = 22% height = 35%>
+<div align="center">
+<a href="https://github.com/mrsajidshaikh/first_apk/blob/master/lib/flutter%20richtext.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
