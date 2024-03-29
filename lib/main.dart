@@ -13,35 +13,51 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.black,
         appBar: AppBar(
-          backgroundColor: Colors.amber,
-          leading: const Icon(
-            Icons.menu,
-            color: Colors.black,
-          ),
+          backgroundColor: Colors.blue,
           centerTitle: true,
           title: const Text(
-            'Flutter App',
+            'Red & White',
             style: TextStyle(
-                color: Colors.black,
+                color: Colors.white,
                 fontSize: 25,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 2),
           ),
         ),
         body: const Center(
-          child: Text(
-            'Red & White',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              decoration: TextDecoration.underline,
-                decorationColor: Colors.amber,
-              color: Colors.red,
-              fontSize: 45,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1,
-            ),
+
+
+          child: Text.rich(
+              TextSpan(
+                  children: [
+                    TextSpan(text:'            G ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.green)),
+                    TextSpan(text:'R ',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red)),
+                    TextSpan(text:'APHICS \n',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.green)),
+                    TextSpan(text:'   FLUTT ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.blue)),
+                    TextSpan(text:'E ',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red)),
+                    TextSpan(text:'R \n',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.blue)),
+                    TextSpan(text:'        AN',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.green)),
+                    TextSpan(text:'  D',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red)),
+                    TextSpan(text:' ROID \n ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.green)),
+                    TextSpan(text:'DESIGN ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.orange)),
+                    TextSpan(text:'& ',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red)),
+                    TextSpan(text:'DEVELOP\n ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.orange)),
+                    TextSpan(text:'            W',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red)),
+                    TextSpan(text:'EB\n ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.blue)),
+                    TextSpan(text:'      FAS ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.yellow)),
+                    TextSpan(text:'H',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red)),
+                    TextSpan(text:' ION \n ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.yellow)),
+                    TextSpan(text:'ANIMAT',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.teal)),
+                    TextSpan(text:'I',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red)),
+                    TextSpan(text:'ON \n ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.teal)),
+                    TextSpan(text:'             I',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.blue)),
+                    TextSpan(text:'T',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red)),
+                    TextSpan(text:'A-CS+ \n ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.blue)),
+                    TextSpan(text:'     GAM ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.orange)),
+                    TextSpan(text:'E\n',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red))
+                  ]
+              )
           ),
         ),
       ),

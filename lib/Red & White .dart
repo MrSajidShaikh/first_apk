@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blue,
           centerTitle: true,
           title: const Text(
-            '🛍️ List of Fruits 🛍️',
+            'Red & White',
             style: TextStyle(
                 color: Colors.white,
                 fontSize: 25,
@@ -56,10 +56,6 @@ class MyApp extends StatelessWidget {
                     TextSpan(text:'A-CS+ \n ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.blue)),
                     TextSpan(text:'     GAM ',style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.orange)),
                     TextSpan(text:'E\n',style:TextStyle(fontSize: 35,fontWeight: FontWeight.bold,color: Colors.red))
-
-
-
-
                   ]
               )
           ),
